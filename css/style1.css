@@ -121,7 +121,7 @@ footer {
   height: auto
   position: absolute;
   margin-bottom: 0;
-  background-color: #604B2D;
+  background-color: #422E1D;
 
 }
 
@@ -129,28 +129,50 @@ footer {
   display: flex;
   width: 62em;
   height: auto;
-  background-color: red;
   flex-direction: row;
   margin: 0 auto;
+  text-align: center;
+  padding-top: 3em;
+  color: white;
 }
 
 .fb{
   width: 20em;
   height: 20em;
-  background-color: blue;
+  margin-left: 1em;
+
+}
+
+.us > p{
+  font-weight: 300;
+}
+
+.us > h3{
+  font-weight: 600;
 }
 
 .us{
   width: 20em;
   height: 20em;
-  background-color: red;
+}
+
+
+.firm > p {
+    font-weight: 300;
+}
+
+.firm > h3 {
+    font-weight: 600;
 }
 
 .firm{
   width: 20em;
   height: 20em;
-  background-color: green;
+  margin-left: 1em;
+
 }
+
+
 
 
 /* tilbud-spesifikke endringer*/
