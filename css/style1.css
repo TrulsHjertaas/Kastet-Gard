@@ -70,6 +70,13 @@ nav {
 
 }
 
+.navLinks a:hover {
+  color: #f5cd04;
+}
+.navLinks a:active {
+  color: #f5cd04;
+}
+
 .navLinks {
   display: inline-block;
   height: auto;
@@ -96,11 +103,11 @@ nav {
   margin: auto;
   height: 15em;
   width: 100%;
-  background-color: green;
+  background-color: white;
 }
 
 .type {
-  background-color: lightgrey;
+  background-color: white;
 }
 
 
