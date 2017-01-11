@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito Sans', sans-serif;
+
+}
+
+html {
+
+}
+
+header {
+  position: relative;
+  z-index: 200;
+  margin-top: 0;
+  width: 65em;
+  height: 4.5em;
+  background: white;
+  margin: auto;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.headerContainer {
+  background-color: white;
+  width: 62em;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+  width: auto;
+  height: auto;
+}
+
+.logo img {
+  height: 12em;
+  margin-top: -2.1em;
+}
+
+nav {
+  float: right;
+  height: 2em;
+  width: 28.8em;
+  display: block;
+
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  padding: 0em;
+}
+
+
+.menu {
+  list-style-type: none;
+
+}
+
+
+
+
+.navLinks a  {
+  text-decoration: none;
+  color: #604B2D;
+  font-size: 1.4em;
+
+
+
+}
+
+.navLinks {
+  display: inline-block;
+  height: auto;
+  background-color: white;
+  width: 7em;
+  text-align: center;
+  margin-top: 1.4em;
+  padding-right: 0.2em;
+
+
+}
+
+
+
+.introduction {
+  margin: auto;
+  background-color: white;
+  width: 65em;
+  height: 20em;
+
+}
+
+.box {
+  margin: auto;
+  height: 15em;
+  width: 100%;
+  background-color: darkgreen;
+}
+
+.type {
+  background-color: lightgrey;
+}
