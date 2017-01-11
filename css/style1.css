@@ -115,36 +115,53 @@ nav {
   background-color: white;
 }
 
+footer {
+  width: 100%;
+  min-height: 30em;
+  height: auto
+  position: absolute;
+  margin-bottom: 0;
+  background-color: #604B2D;
+
+}
+
+.footerFlex {
+  display: flex;
+  width: 62em;
+  height: auto;
+  background-color: red;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.fb{
+  width: 20em;
+  height: 20em;
+  background-color: blue;
+}
+
+.us{
+  width: 20em;
+  height: 20em;
+  background-color: red;
+}
+
+.firm{
+  width: 20em;
+  height: 20em;
+  background-color: green;
+}
 
 
 /* tilbud-spesifikke endringer*/
 
 /* om oss-spesifikke endringer*/
 .wideIMG {
-  width: 100%;
+  width: 65em;
   height: 21.6em;
   border: 1px dotted black;
   margin: 0 auto;
   margin-bottom: 5em;
-
-}
-
-.widthContainer {
-  width: 62em;
-  height: 21.6em;
-  border: 1px dotted black;
-  margin: 0 auto;
-  margin-bottom: 5em;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-}
-
-.infoContainers {
-  width: 31em;
-  height: 21.6em;
-  border: 1px dotted red;
 }
 
 /* kontakt-spesifikke endringer*/
