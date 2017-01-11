@@ -31,6 +31,7 @@ header {
   float: left;
   width: auto;
   height: auto;
+  position: absolute;
 }
 
 .logo img {
@@ -71,7 +72,7 @@ nav {
 }
 
 .navLinks a:hover {
-  color: #f5cd04;
+  color: #dea55c;
 }
 .navLinks a:active {
   color: #f5cd04;
@@ -94,9 +95,13 @@ nav {
 .introduction {
   margin: auto;
   background-color: white;
-  width: 65em;
-  height: 20em;
+  width: 100%;
+  height: auto;
 
+}
+
+.introduction  img{
+  width: 100%;
 }
 
 .box {
