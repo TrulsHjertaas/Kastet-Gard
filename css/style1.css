@@ -249,17 +249,23 @@ footer {
   margin-left: auto;
   width: 62em;
   height: 30em;
-  border: 1px dotted black;
+  /*border: 1px dotted black;*/
+}
+
+.fullwidth {
+  height: 15em;
+  width: 62em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #8ea054;
 }
 
 .infoholder {
-  margin-top: 2.5em;
   margin-right: auto;
   margin-left: auto;
   width: 62em;
   height: 15em;
-  border: 1px dotted black;
-  background-color: #8CC084;
+  /*border: 1px dotted black;*/
   text-align: center;
 }
 
@@ -272,6 +278,10 @@ footer {
 #kastetG {
   width: 62em;
   height: 30em;
+}
+
+#fullwidthdown {
+  margin-bottom: -2em;
 }
 /*.wideIMG {
   width: 100%;
