@@ -92,10 +92,13 @@ nav {
 
 .introHeading {
   display: block;
-  background-color: red;
   position: absolute;
-  top: 6em;
-  left: 50%;
+  top: 2em;
+  width: 100%;
+  text-align: center;
+  font-size: 2.5em;
+  color: white;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
 .introduction {
@@ -139,16 +142,24 @@ nav {
 
 .FP-InfoContainer h3 {
   margin-bottom: 1em;
+  color: #8ea054;
+  font-size: 1.8em;
+  font-weight:200;
 }
 
 .FP-InfoContainer p {
   margin-top: 1em;
-  font-size: 1.1em;
+  font-size: 1.3em;
+  font-weight:200;
+
+
+}
+
+.FP-InfoContainer img {
 
 }
 
 .FP-cont-txt-right {
-  text-align:justify;
 }
 
 .FP-cont {
@@ -159,10 +170,12 @@ nav {
 
 .FP-img {
   width: 48%;
+
 }
 
 .FP-img > img {
   width: 100%;
+  margin-top: 1em;
 
 }
 
