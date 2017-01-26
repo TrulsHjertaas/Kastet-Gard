@@ -259,6 +259,7 @@ footer {
   width: 62em;
   height: 15em;
   border: 1px dotted black;
+  background-color: #8CC084;
   text-align: center;
 }
 
@@ -266,8 +267,12 @@ footer {
   font-size: 1.2em;
   line-height: 1.7em;
   padding: 1em;
+  color: white;
 }
-
+#kastetG {
+  width: 62em;
+  height: 30em;
+}
 /*.wideIMG {
   width: 100%;
   height: 21.6em;
