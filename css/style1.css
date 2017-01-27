@@ -424,6 +424,16 @@ footer h3 {
   box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+#contact2 {
+  height: 3.75em;
+  background-color: #8ea054;
+  width: 62em;
+  color: white;
+  margin: auto;
+  margin-top: 4em;
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 #kontaktBilde {
   box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
 }
