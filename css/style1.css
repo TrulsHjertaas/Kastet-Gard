@@ -277,6 +277,10 @@ footer h3 {
 
 }
 
+#Capa_1 {
+  max-width: 2em;
+}
+
 .legal {
   display: block;
   color: grey;
