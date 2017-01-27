@@ -15,7 +15,7 @@
     <header>
       <section class="headerContainer">
       <section class="logo">
-        <a href="index.html"><img src="img/Kastet-Gård-HVIT-TEKST-LOGO-PNG.PNG" alt="logo" /></a>
+        <img src="img/Kastet-Gård-HVIT-TEKST-LOGO-PNG.PNG" alt="logo" />
       </section>
 
       <section class="logo name">
@@ -37,10 +37,59 @@
     </header>
 
     <main>
-      <!--  <section class="introduction">
+        <section class="introduction">
           <img src="img/SF-Meadow-banner.jpg" alt="Meadow"/>
-        </section>-->
-        <div id="map"></div>
+          <article class="introHeading">
+            <h2>Kontaktinformasjon</h2>
+          </article>
+        </section>
+
+        <section class="box">
+          <section class="FP-InfoContainer">
+            <article class="FP-cont">
+              <article class="FP-cont-txt" id="kontaktPerson">
+                <h3>Inger Johanne Røse</h3>
+                <p>Telefon: </br> E-post: </br></p>
+              </article>
+            </article>
+            <article class="FP-img">
+              <img src="img/inger.jpg" alt="Inger Johanne Røse" id="kontaktBilde"/>
+            </article>
+          </section>
+        </section>
+
+        <div id="line-gradient"></div>
+
+        <section class="box">
+          <section class="FP-InfoContainer">
+            <article class="FP-img">
+              <img src="img/olej.jpg" alt="Ole-Jørgen Hurum" id="kontaktBilde"/>
+            </article>
+            <article class="FP-cont">
+              <article class="FP-cont-txt" id="kontaktPerson">
+                <h3>Ole-Jørgen Hurum</h3>
+                <p>Telefon: </br> E-post: </br></p>
+              </article>
+            </article>
+          </section>
+        </section>
+
+        <div id="line-gradient"></div>
+
+        <section class="box">
+          <section class="FP-InfoContainer">
+            <article class="FP-cont">
+              <article class="FP-cont-txt" id="kontaktPerson">
+                <h3>Her finner du oss!</h3>
+                <p>Forklaring av vei? </br> Adresse?</br></p>
+              </article>
+            </article>
+            <article class="FP-img">
+              <div id="map"></div>
+            </article>
+          </section>
+        </section>
+        </section>
     </main>
 
 
@@ -50,7 +99,7 @@
       function initMap() {
         var uluru = {lat: 59.131227700000004, lng: 11.3545609};
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
+          zoom: 12,
           center: uluru
         });
         var marker = new google.maps.Marker({

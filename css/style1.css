@@ -414,9 +414,50 @@ footer h3 {
 /*}
 
 /* kontakt-spesifikke endringer*/
+#kontaktBilde {
+  border-radius: 1em;
+}
+
+#kontaktPerson {
+  line-height: 4em;
+}
+
+#line-gradient {
+  width: 62em;
+  height: 0.3em;
+  background: linear-gradient(to right, white, #8ea054, white);
+  z-index: 500;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5em;
+}
+
+/*.googleContainer {
+  width: 62em;
+  height: 40em;
+  padding: 2em 0em 2em 0em;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px dotted black;
+  display: flex;
+  flex-direction: column;
+  flex: nowrap;
+  justify-content: space-between;
+}*/
+
+/*.googleHeadline h3 {
+  margin-bottom: 1em;
+  color: #8ea054;
+  font-size: 1.8em;
+  font-weight:200;
+  text-align: center;
+}*/
 
 #map {
-  height: 21.6em;
-  width: 62em;
+  height: 20em;
+  width: 30em;
   margin: 0 auto;
+  margin-bottom: -1em;
 }
