@@ -113,6 +113,7 @@ nav {
 .introduction  img{
   width: 100%;
   position: relative;
+  filter: blur(2px);
 }
 
 .box {
@@ -123,8 +124,10 @@ nav {
 }
 
 .type {
-  background-color: #66442C;
+  background-color: #392A16;
   color: white;
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+
 }
 
 .FP-InfoContainer {
@@ -181,12 +184,23 @@ nav {
 
 footer {
   width: 100%;
-  min-height: 30em;
+  min-height: 20em;
   height: auto
   position: absolute;
   margin-bottom: 0;
-  background-color: #66442C;
+  background-color: #392A16;
   margin-top: 2em;
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+
+
+}
+
+footer li {
+  list-style-type: none;
+}
+
+footer h3 {
+  color: #8ea054;
 }
 
 .footerFlex {
@@ -195,9 +209,9 @@ footer {
   height: auto;
   flex-direction: row;
   margin: 0 auto;
-  text-align: center;
   padding-top: 3em;
   color: white;
+  justify-content: space-around;
 }
 
 .fb{
@@ -207,12 +221,17 @@ footer {
 
 }
 
+.fb h3 {
+  padding-bottom: 1em;
+
+}
+
 .fb > img {
   max-width: 10em;
 }
 
 .us > p{
-  font-weight: 300;
+  font-weight: 200;
 }
 
 .us > h3{
@@ -224,6 +243,7 @@ footer {
 .us{
   width: 20em;
   height: 20em;
+
 }
 
 
@@ -241,6 +261,21 @@ footer {
   height: 20em;
   margin-left: 1em;
 
+}
+
+.legal {
+  display: block;
+  color: grey;
+  font-size: 0.7em;
+  margin: auto;
+  text-align: center;
+
+
+}
+
+.legal a {
+  text-decoration: none;
+  color: grey;
 }
 
 
