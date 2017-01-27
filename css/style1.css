@@ -410,8 +410,22 @@ footer h3 {
 /*}
 
 /* kontakt-spesifikke endringer*/
+#contact {
+  padding: 1em;
+  background-color: #8ea054;
+  width: 62em;
+  color: white;
+  margin: auto;
+  margin-top: 4em;
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 #kontaktBilde {
-  border-radius: 1em;
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#dagligleder {
+  font-weight: 600;
 }
 
 #kontaktPerson {
@@ -420,12 +434,35 @@ footer h3 {
 
 #line-gradient {
   width: 62em;
-  height: 0.3em;
-  background: linear-gradient(to right, white, #8ea054, white);
+  height: 0.15em;
+  background: linear-gradient(to right, white, #8ea054, #8ea054, white);
   z-index: 500;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5em;
+}
+
+.FP-cont2 {
+
+  width: 28%;
+
+}
+
+.FP-img2 {
+  width: 68%;
+  background-color: green;
+}
+
+.findTheWay {
+  font-size: 0.9em;
+}
+
+#box2 {
+  height: 30em;
+}
+
+#infoContainer2 {
+  height: 26em;
 }
 
 /*.googleContainer {
@@ -452,8 +489,9 @@ footer h3 {
 }*/
 
 #map {
-  height: 20em;
-  width: 30em;
+  height: 25em;
+  width: 40em;
   margin: 0 auto;
   margin-bottom: -1em;
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
 }
