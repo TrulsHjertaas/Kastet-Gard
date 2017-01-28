@@ -301,6 +301,12 @@ footer h3 {
 
 /* tilbud-spesifikke endringer*/
 
+#tilbudIMG {
+  width: 40em;
+  height: 20em;
+  margin: auto;
+}
+
 /* om oss-spesifikke endringer*/
 
   main > h2 {
