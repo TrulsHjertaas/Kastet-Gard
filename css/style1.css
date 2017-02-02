@@ -301,10 +301,68 @@ footer h3 {
 
 /* tilbud-spesifikke endringer*/
 
-#tilbudIMG {
-  width: 40em;
-  height: 20em;
-  margin: auto;
+.headlineOfferBox {
+  width: 62em;
+  height: 5em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5em;
+}
+
+.headlineOffer {
+  text-align: left;
+  padding-top: 0.5em;
+  font-size: 2.5em;
+  font-weight: 600;
+  color: #392A16;
+}
+
+.underLine {
+  height: 0.2em;
+  width: 62em;
+  background: linear-gradient(to right, #8ea054, white, white);
+}
+
+.offerMain {
+  height: 28.5em;
+  width: 62em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5em;
+  border-bottom: 0.5em outset #8ea054;
+  border-right: 0.5em outset #8ea054;
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: row;
+  flex: nowrap;
+  justify-content: space-between;
+}
+
+.offerImgBox {
+  width: 64%;
+  height: auto;
+  /*border: 1px solid red;*/
+  padding: 2em;
+}
+
+#offerImg {
+  height: auto;
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.offerTextBox {
+  width: 28%;
+  height: auto;
+  /*border: 1px solid blue;*/
+  padding: 2em;
+}
+
+#offerText {
+  line-height: 2em;
+  font-size: 1.5em;
 }
 
 /* om oss-spesifikke endringer*/
