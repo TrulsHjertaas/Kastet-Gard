@@ -314,26 +314,12 @@ footer h3 {
 
 /* tilbud-spesifikke endringer*/
 
-.surround {
-  height: 42em;
-  width: 100%;
-  background-color: #8ea054;
-}
-
-#newColor {
-  background-color: #392A16;
-}
-
-#newColor2 {
-  background-color: white;
-}
-
 .headlineOfferBox {
   width: 62em;
   height: 5em;
   margin-left: auto;
   margin-right: auto;
-  /*margin-top: 5em;*/
+  margin-top: 3em;
 }
 
 .headlineOffer {
@@ -344,18 +330,10 @@ footer h3 {
   color: #392A16;
 }
 
-#minibusWhite {
-  color: white;
-}
-
 .underLine {
   height: 0.2em;
   width: 62em;
-  background: linear-gradient(to right, #392A16, #8ea054, #8ea054);
-}
-
-#underLineColor {
-  background: linear-gradient(to right, white, #392A16, #392A16);
+  background: linear-gradient(to right, #8ea054, white, white);
 }
 
 .offerMain {
@@ -364,8 +342,8 @@ footer h3 {
   margin-left: auto;
   margin-right: auto;
   margin-top: 2.5em;
-  /*border-bottom: 0.5em outset #8ea054;
-  border-right: 0.5em outset #8ea054;*/
+  border-bottom: 0.2em outset #8ea054;
+  border-right: 0.2em outset #8ea054;
   box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: row;
@@ -383,8 +361,8 @@ footer h3 {
 #offerImg {
   height: auto;
   width: 100%;
-  margin-top: auto;
-  margin-bottom: auto;
+  display: block;
+  margin: 0 auto;
   box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -396,14 +374,14 @@ footer h3 {
 }
 
 #offerText {
-  line-height: 2em;
+  line-height: 1.75em;
   font-size: 1.5em;
+  font-weight: 600;
 }
 
-#offerTextWhite{
-  line-height: 2em;
-  font-size: 1.5em;
-  color: white;
+#offerTextLarge {
+  line-height: 1.75em;
+  font-size: 1.25em;
 }
 
 /* om oss-spesifikke endringer*/
