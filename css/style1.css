@@ -176,7 +176,20 @@ nav {
 
 }
 
-.FP-cont-txt-right {
+.FP-cont-txt-right a {
+  color: white;
+}
+
+.FP-cont-txt a {
+  color: black;
+}
+
+.FP-cont-txt a:hover {
+  color: #dea55c;
+}
+
+.FP-cont-txt-right a:hover {
+  color: #dea55c;
 }
 
 .FP-cont {
