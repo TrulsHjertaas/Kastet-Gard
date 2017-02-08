@@ -443,6 +443,11 @@ footer h3 {
   margin: auto;
 }
 
+.introHeading3 {
+  border-bottom: solid #8ea054;
+
+}
+
 .flex1 {
   width: 62em;
   display: flex;
@@ -463,6 +468,8 @@ footer h3 {
 
 .boutus {
   width: 38%;
+  border-bottom: solid #8ea054;
+
 }
 
 .boutusimg {
@@ -485,6 +492,7 @@ footer h3 {
 
 .about1 {
   width: 22%;
+  border-right: solid #8ea054;
 }
 
 .aboutimg2 {
@@ -498,6 +506,7 @@ footer h3 {
 
 .about2 {
   width: 22%;
+  border-right: solid #8ea054;
 }
 
 
