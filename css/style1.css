@@ -1,3 +1,562 @@
+@media only screen and (min-device-width: 0px) and (max-device-width: 980px) {
+
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+
+  }
+
+  @viewport {
+      width: 460px;
+      zoom: auto;
+  }
+
+  header {
+    position: relative;
+    z-index: 200;
+    margin-top: 0;
+    width: 100%;
+    height: 4.5em;
+    background: white;
+    margin: auto;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  }
+
+  .headerContainer {
+    background-color: white;
+    width: 62em;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  .logo {
+    float: left;
+    width: auto;
+    height: auto;
+    position: absolute;
+  }
+
+  .logo img {
+    height: 12em;
+    margin-top: -2.1em;
+  }
+
+  nav {
+    float: right;
+    height: 2em;
+    width: 28.8em;
+    display: block;
+  }
+
+  .menu a {
+    text-decoration: none;
+    color: white;
+    padding: 0em;
+  }
+  .menu {
+    list-style-type: none;
+  }
+
+  .navLinks a  {
+    text-decoration: none;
+    color: #604B2D;
+    font-size: 1.4em;
+  }
+
+  .navLinks a:hover {
+    color: #dea55c;
+  }
+  .navLinks a:active {
+    color: #f5cd04;
+  }
+
+  .navLinks {
+    display: inline-block;
+    height: auto;
+    background-color: white;
+    width: 7em;
+    text-align: center;
+    margin-top: 1.4em;
+    padding-right: 0.2em;
+  }
+
+  .introHeading {
+    display: block;
+    position: absolute;
+    top: 2em;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    font-weight: 600;
+  }
+
+  .introHeading2 {
+    display: block;
+    position: absolute;
+    top: 3.5em;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    font-weight: lighter;
+  }
+
+  .introHeading3 {
+    margin-top: 2em;
+    width: 100%;
+    color: #8ea054;
+    font-size: 2.5em;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    font-weight: lighter;
+  }
+
+  .introduction {
+    margin: auto;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .introduction  img{
+    width: 100%;
+    position: relative;
+    filter: blur(2px);
+  }
+
+  .box {
+    margin: auto;
+    height: 25em;
+    width: 100%;
+    background-color: white;
+  }
+
+  .type {
+    background-color: #392A16;
+    color: white;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+
+  }
+
+  .FP-InfoContainer {
+    width: 62em;
+    height: 21em;
+    padding: 2em 0em 2em 0em;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex: nowrap;
+    justify-content: space-between;
+  }
+
+  .FP-InfoContainer h3 {
+    margin-bottom: 1em;
+    color: #8ea054;
+    font-size: 1.8em;
+    font-weight:200;
+  }
+
+  .FP-InfoContainer p {
+    margin-top: 1em;
+    font-size: 1.3em;
+    font-weight:200;
+  }
+
+  .FP-cont-txt-right a {
+    color: white;
+  }
+
+  .FP-cont-txt a {
+    color: black;
+  }
+
+  .FP-cont-txt a:hover {
+    color: #dea55c;
+  }
+
+  .FP-cont-txt-right a:hover {
+    color: #dea55c;
+  }
+
+  .FP-cont {
+    width: 48%;
+  }
+
+  .FP-img {
+    width: 48%;
+  }
+
+  .FP-img > img {
+    width: 100%;
+    margin-top: 1em;
+  }
+
+  footer {
+    width: 100%;
+    min-height: 20em;
+    height: auto
+    position: absolute;
+    margin-bottom: 0;
+    background-color: #392A16;
+    margin-top: 2em;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  footer li {
+    list-style-type: none;
+  }
+
+  footer h3 {
+    color: #8ea054;
+  }
+
+  .footerFlex {
+    display: flex;
+    width: 62em;
+    height: auto;
+    flex-direction: row;
+    margin: 0 auto;
+    padding-top: 3em;
+    color: white;
+    justify-content: space-around;
+  }
+
+  .fb{
+    width: 20em;
+    height: 20em;
+    margin-left: 1em;
+  }
+
+  .fb h3 {
+    padding-bottom: 1em;
+  }
+
+  .fb > img {
+    max-width: 10em;
+  }
+
+  .us > p{
+    font-weight: 200;
+  }
+
+  .us > h3{
+    font-weight: 600;
+    padding-bottom: 1em;
+  }
+
+  .us{
+    width: 20em;
+    height: 20em;
+
+  }
+
+
+  .firm > p {
+      font-weight: 300;
+  }
+
+  .firm > h3 {
+      font-weight: 600;
+      padding-bottom: 1em;
+  }
+
+  .firm {
+    width: 20em;
+    height: 20em;
+    margin-left: 1em;
+  }
+
+  .firm iframe {
+    width: 20em;
+    height: 11em;;
+  }
+
+  #padd {
+    padding-bottom: 0.5em;
+    font-style: italic;
+  }
+
+  #padd2 {
+    line-height: 2.2em;
+  }
+
+  #padd2 a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #padd2 a:hover {
+    text-decoration: none;
+    color: #dea55c;
+  }
+
+  #Capa_1 {
+    max-width: 1em;
+    padding-right: 1em;
+    vertical-align: middle;
+  }
+
+  #Capa_2 {
+    max-width: 1em;
+    padding-right: 1em;
+    vertical-align: middle;
+  }
+
+  .legal {
+    display: block;
+    color: grey;
+    font-size: 0.7em;
+    margin: auto;
+    text-align: center;
+  }
+
+  .legal a {
+    text-decoration: none;
+    color: grey;
+  }
+
+  #ul {
+    text-decoration: underline;
+  }
+
+  /* tilbud-spesifikke endringer*/
+
+  .headlineOfferBox {
+    width: 62em;
+    height: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+  }
+
+  .headlineOffer {
+    text-align: left;
+    padding-top: 0.5em;
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #392A16;
+  }
+
+  .underLine {
+    height: 0.2em;
+    width: 62em;
+    background: linear-gradient(to right, #8ea054, white, white);
+  }
+
+  .offerMain {
+    height: 28.5em;
+    width: 62em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5em;
+    border-bottom: 0.2em outset #8ea054;
+    border-right: 0.2em outset #8ea054;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+    flex: nowrap;
+    justify-content: space-between;
+  }
+
+  .offerImgBox {
+    width: 64%;
+    height: auto;
+    /*border: 1px solid red;*/
+    padding: 2em;
+  }
+
+  #offerImg {
+    height: auto;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .offerTextBox {
+    width: 28%;
+    height: auto;
+    /*border: 1px solid blue;*/
+    padding: 2em;
+  }
+
+  #offerText {
+    line-height: 1.75em;
+    font-size: 1.5em;
+    font-weight: 600;
+  }
+
+  #offerTextLarge {
+    line-height: 1.75em;
+    font-size: 1.25em;
+  }
+
+  /* om oss-spesifikke endringer*/
+
+  .container {
+    width: 62em;
+    height: auto;
+    margin: auto;
+  }
+
+  .introHeading3 {
+    border-bottom: solid #8ea054;
+  }
+
+  .flex1 {
+    width: 62em;
+    display: flex;
+    flex-direction: row;
+    flex: nowrap;
+    justify-content: space-between;
+    margin-top: 3em;
+  }
+
+  .flex2 {
+    width: 62em;
+    display: flex;
+    flex-direction: row;
+    flex: nowrap;
+    justify-content: space-between;
+    margin-top: 2em;
+  }
+
+  .boutus {
+    width: 38%;
+    border-bottom: solid #8ea054;
+    line-height: 2em;
+    font-size: 1.06em;
+  }
+
+  .boutusimg {
+    width: 58%;
+  }
+
+  .boutusimg img {
+    max-width: 100%;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  }
+
+  .aboutimg1 {
+    width: 22%;
+  }
+
+  .aboutimg1 img {
+    max-width: 100%;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  }
+
+  .about1 {
+    width: 22%;
+    border-right: solid #8ea054;
+    line-height: 2em;
+  }
+
+  .aboutimg2 {
+    width: 22%;
+  }
+
+  .aboutimg2 img {
+    max-width: 100%;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  }
+
+  .about2 {
+    width: 22%;
+    border-right: solid #8ea054;
+    line-height: 2em;
+  }
+
+  .about2 h5 {
+    font-weight: 600;
+    font-size: 1.08;
+  }
+
+  /* kontakt-spesifikke endringer*/
+
+  #contact {
+    padding: 1em;
+    background-color: #8ea054;
+    width: 62em;
+    color: white;
+    margin: auto;
+    margin-top: 4em;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  #contact2 {
+    height: 3.75em;
+    background-color: #8ea054;
+    width: 62em;
+    color: white;
+    margin: auto;
+    margin-top: 4em;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  #kontaktBilde {
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  #dagligleder {
+    font-weight: 600;
+  }
+
+  #kontaktPerson {
+    line-height: 4em;
+  }
+
+  #line-gradient {
+    width: 62em;
+    height: 0.15em;
+    background: linear-gradient(to right, white, #8ea054, #8ea054, white);
+    z-index: 500;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+  }
+
+  .FP-cont2 {
+    width: 28%;
+  }
+
+  .FP-img2 {
+    width: 68%;
+    background-color: green;
+  }
+
+  .findTheWay {
+    font-size: 0.9em;
+  }
+
+  #box2 {
+    height: 30em;
+  }
+
+  #infoContainer2 {
+    height: 26em;
+  }
+
+  #map {
+    height: 25em;
+    width: 40em;
+    margin: 0 auto;
+    margin-bottom: -1em;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+}
+
+
+@media only screen and (min-device-width: 980px) {
+
+
 * {
   margin: 0;
   padding: 0;
@@ -466,6 +1025,11 @@ footer h3 {
   line-height: 2em;
 }
 
+.about2 h5 {
+  font-weight: 600;
+  font-size: 1.08;
+}
+
 /* kontakt-spesifikke endringer*/
 
 #contact {
@@ -537,4 +1101,6 @@ footer h3 {
   margin: 0 auto;
   margin-bottom: -1em;
   box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 }
