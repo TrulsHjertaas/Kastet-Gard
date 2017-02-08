@@ -5,10 +5,6 @@
 
 }
 
-html {
-
-}
-
 header {
   position: relative;
   z-index: 200;
@@ -44,7 +40,6 @@ nav {
   height: 2em;
   width: 28.8em;
   display: block;
-
 }
 
 .menu a {
@@ -52,23 +47,14 @@ nav {
   color: white;
   padding: 0em;
 }
-
-
 .menu {
   list-style-type: none;
-
 }
-
-
-
 
 .navLinks a  {
   text-decoration: none;
   color: #604B2D;
   font-size: 1.4em;
-
-
-
 }
 
 .navLinks a:hover {
@@ -86,8 +72,6 @@ nav {
   text-align: center;
   margin-top: 1.4em;
   padding-right: 0.2em;
-
-
 }
 
 .introHeading {
@@ -100,7 +84,6 @@ nav {
   color: white;
   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
   font-weight: 600;
-
 }
 
 .introHeading2 {
@@ -130,7 +113,6 @@ nav {
   width: 100%;
   height: auto;
   position: relative;
-
 }
 
 .introduction  img{
@@ -177,12 +159,6 @@ nav {
   margin-top: 1em;
   font-size: 1.3em;
   font-weight:200;
-
-
-}
-
-.FP-InfoContainer img {
-
 }
 
 .FP-cont-txt-right a {
@@ -202,20 +178,16 @@ nav {
 }
 
 .FP-cont {
-
   width: 48%;
-
 }
 
 .FP-img {
   width: 48%;
-
 }
 
 .FP-img > img {
   width: 100%;
   margin-top: 1em;
-
 }
 
 footer {
@@ -227,8 +199,6 @@ footer {
   background-color: #392A16;
   margin-top: 2em;
   box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-
-
 }
 
 footer li {
@@ -254,7 +224,6 @@ footer h3 {
   width: 20em;
   height: 20em;
   margin-left: 1em;
-
 }
 
 .fb h3 {
@@ -272,7 +241,6 @@ footer h3 {
 .us > h3{
   font-weight: 600;
   padding-bottom: 1em;
-
 }
 
 .us{
@@ -291,7 +259,7 @@ footer h3 {
     padding-bottom: 1em;
 }
 
-.firm{
+.firm {
   width: 20em;
   height: 20em;
   margin-left: 1em;
@@ -309,7 +277,6 @@ footer h3 {
 
 #padd2 {
   line-height: 2.2em;
-
 }
 
 #padd2 a {
@@ -322,8 +289,6 @@ footer h3 {
   color: #dea55c;
 }
 
-
-
 #Capa_1 {
   max-width: 1em;
   padding-right: 1em;
@@ -334,12 +299,7 @@ footer h3 {
   max-width: 1em;
   padding-right: 1em;
   vertical-align: middle;
-
-
 }
-
-
-
 
 .legal {
   display: block;
@@ -347,8 +307,6 @@ footer h3 {
   font-size: 0.7em;
   margin: auto;
   text-align: center;
-
-
 }
 
 .legal a {
@@ -359,9 +317,6 @@ footer h3 {
 #ul {
   text-decoration: underline;
 }
-
-
-
 
 /* tilbud-spesifikke endringer*/
 
@@ -445,7 +400,6 @@ footer h3 {
 
 .introHeading3 {
   border-bottom: solid #8ea054;
-
 }
 
 .flex1 {
@@ -469,7 +423,6 @@ footer h3 {
 .boutus {
   width: 38%;
   border-bottom: solid #8ea054;
-
 }
 
 .boutusimg {
@@ -509,10 +462,8 @@ footer h3 {
   border-right: solid #8ea054;
 }
 
-
-
-
 /* kontakt-spesifikke endringer*/
+
 #contact {
   padding: 1em;
   background-color: #8ea054;
@@ -556,9 +507,7 @@ footer h3 {
 }
 
 .FP-cont2 {
-
   width: 28%;
-
 }
 
 .FP-img2 {
@@ -578,29 +527,6 @@ footer h3 {
   height: 26em;
 }
 
-/*.googleContainer {
-  width: 62em;
-  height: 40em;
-  padding: 2em 0em 2em 0em;
-  margin-top: 5em;
-  margin-bottom: 5em;
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px dotted black;
-  display: flex;
-  flex-direction: column;
-  flex: nowrap;
-  justify-content: space-between;
-}*/
-
-/*.googleHeadline h3 {
-  margin-bottom: 1em;
-  color: #8ea054;
-  font-size: 1.8em;
-  font-weight:200;
-  text-align: center;
-}*/
-
 #map {
   height: 25em;
   width: 40em;
@@ -608,15 +534,3 @@ footer h3 {
   margin-bottom: -1em;
   box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
 }
-
-
-
-
-
-
-
-
-
-
-
-
