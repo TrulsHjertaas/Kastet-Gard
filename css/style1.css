@@ -12,6 +12,7 @@
       zoom: auto;
   }
 
+
   header {
     position: relative;
     z-index: 200;
@@ -21,6 +22,7 @@
     background: white;
     margin: auto;
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+    display: none;
   }
 
   .headerContainer {
@@ -28,6 +30,7 @@
     width: 62em;
     height: 100%;
     margin: 0 auto;
+    display: none;
   }
 
   .logo {
@@ -35,11 +38,13 @@
     width: auto;
     height: auto;
     position: absolute;
+    display: none;
   }
 
   .logo img {
     height: 12em;
     margin-top: -2.1em;
+    display: none;
   }
 
   nav {
@@ -47,28 +52,34 @@
     height: 2em;
     width: 28.8em;
     display: block;
+    display: none;
   }
 
   .menu a {
     text-decoration: none;
     color: white;
     padding: 0em;
+    display: none;
   }
   .menu {
     list-style-type: none;
+    display: none;
   }
 
   .navLinks a  {
     text-decoration: none;
     color: #604B2D;
     font-size: 1.4em;
+    display: none;
   }
 
   .navLinks a:hover {
     color: #dea55c;
+    display: none;
   }
   .navLinks a:active {
     color: #f5cd04;
+    display: none;
   }
 
   .navLinks {
@@ -79,6 +90,7 @@
     text-align: center;
     margin-top: 1.4em;
     padding-right: 0.2em;
+    display: none;
   }
 
   .introHeading {
@@ -91,6 +103,7 @@
     color: white;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
     font-weight: 600;
+    display: none;
   }
 
   .introHeading2 {
@@ -103,6 +116,7 @@
     color: white;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
     font-weight: lighter;
+    display: none;
   }
 
   .introHeading3 {
@@ -116,43 +130,44 @@
 
   .introduction {
     margin: auto;
-    background-color: white;
+    background-color: red;
     width: 100%;
     height: auto;
     position: relative;
+    display: none;
   }
 
   .introduction  img{
     width: 100%;
     position: relative;
     filter: blur(2px);
+    display: none;
   }
+
 
   .box {
     margin: auto;
-    height: 25em;
+    height: auto;
     width: 100%;
-    background-color: white;
   }
 
   .type {
-    background-color: #392A16;
-    color: white;
     box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
 
   }
 
   .FP-InfoContainer {
     width: 62em;
-    height: 21em;
+    height: 100%;
     padding: 2em 0em 2em 0em;
     margin-top: 2em;
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    flex-direction: row;
-    flex: nowrap;
+    flex-direction: column;
     justify-content: space-between;
+    flex: wrap;
+
   }
 
   .FP-InfoContainer h3 {
@@ -169,11 +184,15 @@
   }
 
   .FP-cont-txt-right a {
-    color: white;
+    color: black;
   }
 
   .FP-cont-txt a {
     color: black;
+  }
+
+  .FP-cont-txt p {
+    font-size: 1.3em;
   }
 
   .FP-cont-txt a:hover {
@@ -185,11 +204,11 @@
   }
 
   .FP-cont {
-    width: 48%;
+    width: 100%;
   }
 
   .FP-img {
-    width: 48%;
+    width: 100%;
   }
 
   .FP-img > img {
@@ -199,8 +218,7 @@
 
   footer {
     width: 100%;
-    min-height: 20em;
-    height: auto
+    height: auto;
     position: absolute;
     margin-bottom: 0;
     background-color: #392A16;
@@ -214,23 +232,31 @@
 
   footer h3 {
     color: #8ea054;
+    text-align: center;
+  }
+
+  footer p {
+    text-align: center;
   }
 
   .footerFlex {
     display: flex;
-    width: 62em;
+    width: 100%;
     height: auto;
-    flex-direction: row;
+    flex-direction: column;
     margin: 0 auto;
     padding-top: 3em;
     color: white;
-    justify-content: space-around;
+    justify-content: center;
+    flex: wrap;
+    font-size: 3em;
   }
 
   .fb{
-    width: 20em;
-    height: 20em;
-    margin-left: 1em;
+    width: 100%;
+    height: auto;
+    padding-bottom: 2em;
+
   }
 
   .fb h3 {
@@ -251,9 +277,8 @@
   }
 
   .us{
-    width: 20em;
+    width: 100%;
     height: 20em;
-
   }
 
 
@@ -267,14 +292,14 @@
   }
 
   .firm {
-    width: 20em;
+    width: 100%;
     height: 20em;
-    margin-left: 1em;
   }
 
   .firm iframe {
     width: 20em;
-    height: 11em;;
+    height: 11em;
+    background-color: green;
   }
 
   #padd {
@@ -552,6 +577,7 @@
   }
 
 }
+
 
 
 @media only screen and (min-device-width: 980px) {
