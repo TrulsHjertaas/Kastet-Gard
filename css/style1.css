@@ -384,13 +384,13 @@
     border-right: 0.2em outset #8ea054;
     box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex: nowrap;
     justify-content: space-between;
   }
 
   .offerImgBox {
-    width: 64%;
+    width: 96%;
     height: auto;
     /*border: 1px solid red;*/
     padding: 2em;
@@ -405,7 +405,7 @@
   }
 
   .offerTextBox {
-    width: 28%;
+    width: 96%;
     height: auto;
     /*border: 1px solid blue;*/
     padding: 2em;
@@ -548,11 +548,11 @@
   }
 
   .FP-cont2 {
-    width: 28%;
+    width: 96%;
   }
 
   .FP-img2 {
-    width: 68%;
+    width: 96%;
     background-color: green;
   }
 
