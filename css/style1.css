@@ -975,9 +975,18 @@ footer h3 {
 }
 
 #offerText {
-  line-height: 1.75em;
+  line-height: 1.25em;
   font-size: 1.5em;
   font-weight: 600;
+  list-style: none;
+  text-align: center;
+  color: #8ea054;
+}
+
+#offerTextItalic {
+  font-style: italic;
+  color: black;
+  font-size: 0.75em;
 }
 
 #offerTextLarge {
