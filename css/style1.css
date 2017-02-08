@@ -328,30 +328,30 @@
   /* tilbud-spesifikke endringer*/
 
   .headlineOfferBox {
-    width: 62em;
-    height: 5em;
+    width: 100%;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3em;
+    margin-top: 5em;
   }
 
   .headlineOffer {
-    text-align: left;
+    text-align: center;
     padding-top: 0.5em;
-    font-size: 2.5em;
+    font-size: 4em;
     font-weight: 600;
     color: #392A16;
   }
 
   .underLine {
     height: 0.2em;
-    width: 62em;
-    background: linear-gradient(to right, #8ea054, white, white);
+    width: 100%;
+    background: linear-gradient(to right, white, white, #8ea054, white, white);
   }
 
   .offerMain {
-    height: 28.5em;
-    width: 62em;
+    height: auto;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2.5em;
@@ -360,7 +360,7 @@
     box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
-    flex: nowrap;
+    flex: wrap;
     justify-content: space-between;
   }
 
@@ -388,13 +388,20 @@
 
   #offerText {
     line-height: 1.75em;
-    font-size: 1.5em;
+    font-size: 3em;
     font-weight: 600;
+    text-align: center;
+    list-style: none;
+  }
+
+  #offerTextItalic {
+    font-style: italic;
   }
 
   #offerTextLarge {
     line-height: 1.75em;
-    font-size: 1.25em;
+    font-size: 3em;
+    text-align: center;
   }
 
   /* om oss-spesifikke endringer*/
@@ -483,7 +490,7 @@
   #contact {
     padding: 1em;
     background-color: #8ea054;
-    width: 62em;
+    width: 100%;
     color: white;
     margin: auto;
     margin-top: 4em;
@@ -493,7 +500,7 @@
   #contact2 {
     height: 3.75em;
     background-color: #8ea054;
-    width: 62em;
+    width: 100%;
     color: white;
     margin: auto;
     margin-top: 4em;
@@ -513,7 +520,7 @@
   }
 
   #line-gradient {
-    width: 62em;
+    width: 100%;
     height: 0.15em;
     background: linear-gradient(to right, white, #8ea054, #8ea054, white);
     z-index: 500;
@@ -536,11 +543,11 @@
   }
 
   #box2 {
-    height: 30em;
+    height: auto;
   }
 
   #infoContainer2 {
-    height: 26em;
+    height: auto;
   }
 
   #map {
