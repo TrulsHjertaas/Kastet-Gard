@@ -17,65 +17,62 @@
     position: relative;
     z-index: 200;
     margin-top: 0;
-    width: 100%;
-    height: 4.5em;
-    background: white;
+    width: 62em;
+    height: 8em;
     margin: auto;
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-    display: none;
   }
 
   .headerContainer {
     background-color: white;
     width: 62em;
-    height: 100%;
+    height: 4.5;
     margin: 0 auto;
-    display: none;
   }
 
   .logo {
-    float: left;
     width: auto;
     height: auto;
-    position: absolute;
+    margin: 10 auto;
+    display: none;
+  }
+
+  #middlepic {
     display: none;
   }
 
   .logo img {
     height: 12em;
-    margin-top: -2.1em;
+    position: static;
     display: none;
   }
 
   nav {
-    float: right;
+  /*  float: right;*/
     height: 2em;
-    width: 28.8em;
+    width: 62;
     display: block;
-    display: none;
   }
 
   .menu a {
     text-decoration: none;
     color: white;
     padding: 0em;
-    display: none;
   }
   .menu {
     list-style-type: none;
-    display: none;
   }
+
+
 
   .navLinks a  {
     text-decoration: none;
     color: #604B2D;
-    font-size: 1.4em;
-    display: none;
+    font-size: 3em;
   }
 
   .navLinks a:hover {
     color: #dea55c;
-    display: none;
   }
   .navLinks a:active {
     color: #f5cd04;
@@ -84,13 +81,11 @@
 
   .navLinks {
     display: inline-block;
-    height: auto;
-    background-color: white;
-    width: 7em;
+    height: 4.5em;
+    width: 15.5em;
     text-align: center;
     margin-top: 1.4em;
-    padding-right: 0.2em;
-    display: none;
+    /*padding-right: 0.2em;*/
   }
 
   .introHeading {
@@ -99,7 +94,7 @@
     top: 2em;
     width: 100%;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 3em;
     color: white;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
     font-weight: 600;
@@ -146,23 +141,20 @@
 
 
   .box {
-    margin: auto;
-    height: auto;
-    width: 100%;
+
+    height: 100%;
+    width: 62em;
+    margin-top: 4em;
   }
 
   .type {
-    box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+    width: 62em;
 
   }
 
   .FP-InfoContainer {
     width: 62em;
     height: 100%;
-    padding: 2em 0em 2em 0em;
-    margin-top: 2em;
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -173,14 +165,19 @@
   .FP-InfoContainer h3 {
     margin-bottom: 1em;
     color: #8ea054;
-    font-size: 1.8em;
+    font-size: 5em;
     font-weight:200;
+    text-align: center;
   }
 
   .FP-InfoContainer p {
     margin-top: 1em;
     font-size: 1.3em;
     font-weight:200;
+    font-size: 3em;
+    padding: 0em 0.5em 0em 0.5em;
+
+
   }
 
   .FP-cont-txt-right a {
@@ -193,6 +190,8 @@
 
   .FP-cont-txt p {
     font-size: 1.3em;
+    font-size: 3em;
+    padding: 0em 0.5em 0em 0.5em;
   }
 
   .FP-cont-txt a:hover {
@@ -205,25 +204,55 @@
 
   .FP-cont {
     width: 100%;
+    margin-top: 4em;
   }
 
-  .FP-img {
+  .img2 {
     width: 100%;
+    margin-top: 4em;
+
   }
 
   .FP-img > img {
     width: 100%;
-    margin-top: 1em;
+    height: auto;
+
+  }
+  .containersss{
+    margin: 0 auto;
+    max-width: 62em;
+
   }
 
-  footer {
+  .grid {
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+   }
+
+  .cell {
+    height: auto;
+    width: 62em;
+
+    }
+
+  .cell img {
+    display: block;
     width: 100%;
+
+
+
+  }
+
+
+
+  footer {
+    width: 62em;
     height: auto;
     position: absolute;
     margin-bottom: 0;
     background-color: #392A16;
-    margin-top: 2em;
-    box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+    /*box-shadow:0 0 10px rgba(0, 0, 0, 0.5);*/
   }
 
   footer li {
@@ -256,6 +285,7 @@
     width: 100%;
     height: auto;
     padding-bottom: 2em;
+    display: none;
 
   }
 
@@ -278,7 +308,7 @@
 
   .us{
     width: 100%;
-    height: 20em;
+    height: auto;
   }
 
 
@@ -292,8 +322,10 @@
   }
 
   .firm {
-    width: 100%;
-    height: 20em;
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+    display: none;
   }
 
   .firm iframe {
@@ -305,10 +337,14 @@
   #padd {
     padding-bottom: 0.5em;
     font-style: italic;
+    text-align: center;
   }
 
   #padd2 {
     line-height: 2.2em;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
   }
 
   #padd2 a {
@@ -323,27 +359,28 @@
 
   #Capa_1 {
     max-width: 1em;
-    padding-right: 1em;
+    /*padding-right: 1em;*/
     vertical-align: middle;
   }
 
   #Capa_2 {
     max-width: 1em;
-    padding-right: 1em;
+    /*padding-right: 1em;*/
     vertical-align: middle;
   }
 
   .legal {
-    display: block;
-    color: grey;
-    font-size: 0.7em;
+    color: white;
+    font-size: 1em;
     margin: auto;
     text-align: center;
+    background-color: #392A16;
+    padding-top: 4em;
   }
 
   .legal a {
     text-decoration: none;
-    color: grey;
+    color: white;
   }
 
   #ul {
@@ -439,35 +476,41 @@
 
   .introHeading3 {
     border-bottom: solid #8ea054;
+    text-align: center;
+    font-size: 5em;
   }
 
   .flex1 {
-    width: 62em;
+    width: 90%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex: nowrap;
     justify-content: space-between;
-    margin-top: 3em;
+    margin: 3em auto;
+    text-align: center;
+    font-size: 3em;
   }
 
   .flex2 {
     width: 62em;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex: nowrap;
     justify-content: space-between;
     margin-top: 2em;
   }
 
   .boutus {
-    width: 38%;
+    width:100%;
     border-bottom: solid #8ea054;
     line-height: 2em;
     font-size: 1.06em;
+    text-align: center;
+    padding: 1em 0em 2em 0em;
   }
 
   .boutusimg {
-    width: 58%;
+    width: 100%;
   }
 
   .boutusimg img {
@@ -476,38 +519,52 @@
   }
 
   .aboutimg1 {
-    width: 22%;
+    width: 60%;
+    margin-left: 5%;
+    margin-top: 4em;
+    margin-bottom: 2em;
   }
 
   .aboutimg1 img {
-    max-width: 100%;
+    width: 100%;
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
   }
 
   .about1 {
-    width: 22%;
+    width: 90%;
     border-right: solid #8ea054;
     line-height: 2em;
+    margin: .6em auto;
   }
 
   .aboutimg2 {
-    width: 22%;
+    width: auto;
+    margin-left: 5%;
+    margin-top: 4em;
+    margin-bottom: 2em;
+
   }
 
   .aboutimg2 img {
-    max-width: 100%;
+    height: 100%;
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
   }
 
   .about2 {
-    width: 22%;
+    width: 90%;
     border-right: solid #8ea054;
     line-height: 2em;
+    margin: .6em auto;
+    margin-bottom: 10em;
   }
 
   .about2 h5 {
     font-weight: 600;
-    font-size: 1.08;
+    font-size: 2em;
+  }
+
+  .abouts {
+    padding-top: 2em;
   }
 
 
@@ -718,7 +775,7 @@ nav {
   margin: auto;
   height: 25em;
   width: 100%;
-  background-color: white;
+  margin-top: 2em;
 }
 
 .type {
@@ -780,7 +837,50 @@ nav {
 
 .FP-img > img {
   width: 100%;
-  margin-top: 1em;
+}
+
+#bottompic {
+  margin-top: 4em;
+}
+
+#middlepic {
+  width: 90%;
+}
+
+
+
+
+.containersss{
+  margin: 0 auto;
+  max-width: 62em;
+
+}
+
+.grid {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-between;
+ }
+
+.cell {
+  height: auto;
+
+  }
+
+.cell img {
+  display: block;
+  max-width: 20em;
+  max-height: 25em;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5);
+
+
+
+}
+
+.cell > #sauer {
+  margin-top: 4.5em;
+
 }
 
 
@@ -1000,7 +1100,10 @@ footer h3 {
   width: 62em;
   height: auto;
   margin: auto;
+
 }
+
+
 
 .introHeading3 {
   border-bottom: solid #8ea054;
@@ -1013,6 +1116,7 @@ footer h3 {
   flex: nowrap;
   justify-content: space-between;
   margin-top: 3em;
+  background-color: green;
 }
 
 .flex2 {
@@ -1029,10 +1133,13 @@ footer h3 {
   border-bottom: solid #8ea054;
   line-height: 2em;
   font-size: 1.06em;
+  padding-bottom: 1em;
+  background-color: blue;
 }
 
 .boutusimg {
   width: 58%;
+  background-color: red;
 }
 
 .boutusimg img {
@@ -1054,6 +1161,7 @@ footer h3 {
   border-right: solid #8ea054;
   line-height: 2em;
   font-size: 0.9em;
+  padding-right: 1em;
 }
 
 .aboutimg2 {
@@ -1070,6 +1178,8 @@ footer h3 {
   border-right: solid #8ea054;
   line-height: 2em;
   font-size: 0.9em;
+  padding-right: 1em;
+
 
 }
 
