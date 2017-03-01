@@ -535,27 +535,23 @@
   }
 
 .imageHolders img {
-  height: 3em;
+  height: 5em;
 }
 
   #imgh1 {
     background-color: red;
-    max-height: 3em;
   }
 
   #imgh2 {
     background-color: yellow;
-    max-height: 3em;
   }
 
   #imgh3 {
     background-color: blue;
-    max-height: 3em;
   }
 
   #imgh4 {
     background-color: green;
-    max-height: 3em;
   }
 
   .flex2 {
@@ -1190,8 +1186,6 @@ footer h3 {
 
 }
 
-
-
 .introHeading3 {
   border-bottom: solid #8ea054;
 }
@@ -1206,39 +1200,19 @@ footer h3 {
 }
 
 .container3 {
-  background-color: lightgrey;
+  /*background-color: lightgrey;*/
   height: 20em;
   width: 35em;
   display: flex;
   flex-direction: row;
   flex: wrap;
-  justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-
+  justify-content: space-around;
 }
 
-.imageHolders {
-  width: 50%;
-  height: 10em;
-  /*padding: 1.5em;*/
-  /*background-color: darkgrey;*/
-}
-
-#imgh1 {
-  background-color: red;
-}
-
-#imgh2 {
-  background-color: yellow;
-}
-
-#imgh3 {
-  background-color: blue;
-}
-
-#imgh4 {
-  background-color: green;
+.container3 img {
+  height: 20em;
 }
 
 .flex2 {
@@ -1247,7 +1221,7 @@ footer h3 {
   flex-direction: row;
   flex: nowrap;
   justify-content: space-between;
-  margin-top: 2em;
+  margin-top: 5em;
 }
 
 .boutus {
@@ -1256,7 +1230,7 @@ footer h3 {
   line-height: 2em;
   font-size: 1.06em;
   padding-bottom: 1em;
-  background-color: grey;
+  /*background-color: grey;*/
 }
 
 .boutusimg {
