@@ -390,7 +390,7 @@
   /* tilbud-spesifikke endringer*/
 
   .headlineOfferBox {
-    width: 100%;
+    width: 62em;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -399,7 +399,6 @@
 
   .headlineOffer {
     text-align: center;
-    padding-top: 0.5em;
     font-size: 4em;
     font-weight: 600;
     color: #392A16;
@@ -407,19 +406,20 @@
 
   .underLine {
     height: 0.2em;
-    width: 100%;
+    width: 62em;
     background: linear-gradient(to right, white, white, #8ea054, white, white);
   }
 
   .offerMain {
     height: auto;
-    width: 100%;
+    width: 58em;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2.5em;
     border-bottom: 0.2em outset #8ea054;
-    border-right: 0.2em outset #8ea054;
-    box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+    /*border-right: 0.2em outset #8ea054;*/
+    /*box-shadow:0 0 10px rgba(0, 0, 0, 0.5);*/
+    padding: 2em 2em 7em 2em;
     display: flex;
     flex-direction: column;
     flex: wrap;
@@ -427,10 +427,10 @@
   }
 
   .offerImgBox {
-    width: 96%;
+    width: 100%;
     height: auto;
     /*border: 1px solid red;*/
-    padding: 2em;
+    /*padding: 2em;*/
   }
 
   #offerImg {
@@ -438,19 +438,19 @@
     width: 100%;
     display: block;
     margin: 0 auto;
-    box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+    /*box-shadow:0 0 10px rgba(0, 0, 0, 0.5);*/
   }
 
   .offerTextBox {
-    width: 96%;
+    width: 100%;
     height: auto;
-    /*border: 1px solid blue;*/
-    padding: 2em;
+    /*border: 1px solid blue;
+    padding: 2em;*/
   }
 
   #offerText {
     line-height: 1.75em;
-    font-size: 3em;
+    font-size: 4em;
     font-weight: 600;
     text-align: center;
     list-style: none;
@@ -458,11 +458,12 @@
 
   #offerTextItalic {
     font-style: italic;
+    color: #8ea054;
   }
 
   #offerTextLarge {
     line-height: 1.75em;
-    font-size: 3em;
+    font-size: 4em;
     text-align: center;
   }
 
