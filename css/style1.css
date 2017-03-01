@@ -515,43 +515,17 @@
   }
 
   .container3 {
-    background-color: lightgrey;
     height: 20em;
     width: 100%;
     display: flex;
     flex-direction: column;
     flex: wrap;
     justify-content: center;
-    /*align-items: center;
-    flex-flow: column wrap;*/
 
   }
 
-  .imageHolders {
-    width: 100%;
-    height: auto;
-    /*padding: 1.5em;*/
-    /*background-color: darkgrey;*/
-  }
-
-.imageHolders img {
-  height: 5em;
-}
-
-  #imgh1 {
-    background-color: red;
-  }
-
-  #imgh2 {
-    background-color: yellow;
-  }
-
-  #imgh3 {
-    background-color: blue;
-  }
-
-  #imgh4 {
-    background-color: green;
+  .container3 img {
+    height: 20em;
   }
 
   .flex2 {
