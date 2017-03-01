@@ -390,7 +390,7 @@
   /* tilbud-spesifikke endringer*/
 
   .headlineOfferBox {
-    width: 62em;
+    width: 100%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -399,6 +399,7 @@
 
   .headlineOffer {
     text-align: center;
+    padding-top: 0.5em;
     font-size: 4em;
     font-weight: 600;
     color: #392A16;
@@ -406,20 +407,19 @@
 
   .underLine {
     height: 0.2em;
-    width: 62em;
+    width: 100%;
     background: linear-gradient(to right, white, white, #8ea054, white, white);
   }
 
   .offerMain {
     height: auto;
-    width: 58em;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2.5em;
     border-bottom: 0.2em outset #8ea054;
-    /*border-right: 0.2em outset #8ea054;*/
-    /*box-shadow:0 0 10px rgba(0, 0, 0, 0.5);*/
-    padding: 2em 2em 7em 2em;
+    border-right: 0.2em outset #8ea054;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
     flex: wrap;
@@ -427,10 +427,10 @@
   }
 
   .offerImgBox {
-    width: 100%;
+    width: 96%;
     height: auto;
     /*border: 1px solid red;*/
-    /*padding: 2em;*/
+    padding: 2em;
   }
 
   #offerImg {
@@ -438,19 +438,19 @@
     width: 100%;
     display: block;
     margin: 0 auto;
-    /*box-shadow:0 0 10px rgba(0, 0, 0, 0.5);*/
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
   }
 
   .offerTextBox {
-    width: 100%;
+    width: 96%;
     height: auto;
-    /*border: 1px solid blue;
-    padding: 2em;*/
+    /*border: 1px solid blue;*/
+    padding: 2em;
   }
 
   #offerText {
     line-height: 1.75em;
-    font-size: 4em;
+    font-size: 3em;
     font-weight: 600;
     text-align: center;
     list-style: none;
@@ -458,12 +458,11 @@
 
   #offerTextItalic {
     font-style: italic;
-    color: #8ea054;
   }
 
   #offerTextLarge {
     line-height: 1.75em;
-    font-size: 4em;
+    font-size: 3em;
     text-align: center;
   }
 
@@ -504,10 +503,10 @@
   .boutus {
     width:100%;
     border-bottom: solid #8ea054;
-    line-height: .8em;
-    font-size: 3em;
+    line-height: 2em;
+    font-size: 1.06em;
     text-align: center;
-    padding: 0em 0em 1em 0em;
+    padding: 1em 0em 2em 0em;
   }
 
   .boutusimg {
@@ -534,13 +533,8 @@
   .about1 {
     width: 90%;
     border-right: solid #8ea054;
-    line-height: 1em;
+    line-height: 2em;
     margin: .6em auto;
-    font-size: 8em;
-  }
-
-  .about1 h5 {
-    font-size: 1.3em;
   }
 
   .aboutimg2 {
@@ -559,26 +553,18 @@
   .about2 {
     width: 90%;
     border-right: solid #8ea054;
-    line-height: 1em;
+    line-height: 2em;
     margin: .6em auto;
-    font-size: 8em;
+    margin-bottom: 10em;
   }
 
   .about2 h5 {
-    font-size: 1.3em;
-
-  }
-
-  #jobb {
-    font-size: 0.8em;
-    font-style: italic;
-    font-weight: lighter;
-    margin-top: -0.7em;
+    font-weight: 600;
+    font-size: 2em;
   }
 
   .abouts {
-    padding: 0em 0.2em 0em 0em;
-
+    padding-top: 2em;
   }
 
 
@@ -1144,7 +1130,12 @@ footer h3 {
   flex: nowrap;
   justify-content: space-between;
   margin-top: 3em;
-  background-color: green;
+}
+
+.container3 {
+  background-color: lightgrey;
+  height: auto;
+  width: 35em;
 }
 
 .flex2 {
@@ -1162,7 +1153,7 @@ footer h3 {
   line-height: 2em;
   font-size: 1.06em;
   padding-bottom: 1em;
-  background-color: blue;
+  background-color: grey;
 }
 
 .boutusimg {
@@ -1275,7 +1266,6 @@ footer h3 {
 
 .FP-img2 {
   width: 68%;
-  background-color: green;
 }
 
 .findTheWay {
