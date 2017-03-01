@@ -484,11 +484,55 @@
     width: 90%;
     display: flex;
     flex-direction: column;
-    flex: nowrap;
+    flex: wrap;
     justify-content: space-between;
     margin: 3em auto;
     text-align: center;
     font-size: 3em;
+  }
+
+  .container3 {
+    background-color: lightgrey;
+    height: 20em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: wrap;
+    justify-content: center;
+    /*align-items: center;
+    flex-flow: column wrap;*/
+
+  }
+
+  .imageHolders {
+    width: 100%;
+    height: auto;
+    /*padding: 1.5em;*/
+    /*background-color: darkgrey;*/
+  }
+
+.imageHolders img {
+  height: 3em;
+}
+
+  #imgh1 {
+    background-color: red;
+    max-height: 3em;
+  }
+
+  #imgh2 {
+    background-color: yellow;
+    max-height: 3em;
+  }
+
+  #imgh3 {
+    background-color: blue;
+    max-height: 3em;
+  }
+
+  #imgh4 {
+    background-color: green;
+    max-height: 3em;
   }
 
   .flex2 {
@@ -1127,15 +1171,45 @@ footer h3 {
   width: 62em;
   display: flex;
   flex-direction: row;
-  flex: nowrap;
+  flex: wrap;
   justify-content: space-between;
   margin-top: 3em;
 }
 
 .container3 {
   background-color: lightgrey;
-  height: auto;
+  height: 20em;
   width: 35em;
+  display: flex;
+  flex-direction: row;
+  flex: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+
+}
+
+.imageHolders {
+  width: 50%;
+  height: 10em;
+  /*padding: 1.5em;*/
+  /*background-color: darkgrey;*/
+}
+
+#imgh1 {
+  background-color: red;
+}
+
+#imgh2 {
+  background-color: yellow;
+}
+
+#imgh3 {
+  background-color: blue;
+}
+
+#imgh4 {
+  background-color: green;
 }
 
 .flex2 {
